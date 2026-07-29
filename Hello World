@@ -1,0 +1,30 @@
+Problem Statement:
+Sample Input 0
+Welcome to C programming.
+
+Sample Output 0
+Hello, World!
+Welcome to C programming.
+
+Program:
+#include<stdio.h>
+int main()
+{
+    char s[100];
+    fgets(s,sizeof(s),stdin);
+    printf("Hello, World!\n%s",s);
+    
+    return 0;
+}
+
+Output:
+Compiler Message
+Success
+
+Input (stdin)
+    Welcome to C programming.
+
+Expected Output
+    Hello, World!
+    Welcome to C programming.
+
